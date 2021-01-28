@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="styles/stylesfb.css">
+	<title> Обратная связь.</title>
+</head>
+<body>
+	<header>
+		<div class="mheader">
+			<h1 class="h1header">
+				САМОСБОР
+			</h1>
+			<p class="pheader">Добро пожаловать в гигагрущ, снова!</p>
+		</div>
+		<div class="navigation">
+			<ul class="navigation-href">
+				<li class="li-href"><a href="index.html">ГЛАВНАЯ</a></li>
+				<li class="li-href"><a href="basics.html">ОСНОВЫ</a></li>
+				<li class="li-href"><a href="stories.html">РАССКАЗЫ</a></li>
+				<li class="li-href"><a href="bestiary.html">БЕСТИАРИЙ</a></li>
+			</ul>
+		</div>
+	</header>
+	<main>
+		<h2 class="text-center">Обратная связь</h2>
+		<div class="container">
+			<div class="container_form">
+				<form action="send.php" method="post">
+				<ul>
+					<li class="form_li">
+						<label for="name">Ваше имя: </label> 
+						<input type="text" name="name" placeholder="Soup Mactavish" required><br>
+					</li>
+					<li class="form_li">
+						<label for="email">Email: </label> 
+						<input type="email" name="email" placeholder="xxxx@xxxx.xxx" required>
+					</li>
+					<li class="form_li">
+						<label for="textarea">Ваши пожелания: </label><br>
+						<textarea id="textarea" type="textarea" name="textarea" placeholder="Текст" cols="60" rows="5" required></textarea>
+					</li>
+					<li class="form_li"> 
+						<input id="submit" type="submit" name="sumbit" value="Отправить">
+					</li>
+				</ul>
+				</form>
+			</div>
+		</div>
+	</main>
+</body>
