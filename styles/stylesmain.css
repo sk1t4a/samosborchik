@@ -193,3 +193,12 @@ hr {
 	text-align: right;
 	
 }
+.icons-link {
+	text-align: center;
+	
+}
+.icons-link a {
+	margin-left: 300px;
+	margin-right: 300px;
+	background-color: none;
+}
